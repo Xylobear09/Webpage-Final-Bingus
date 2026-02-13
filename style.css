@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #baa5ff;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  left: 0%;
+  border-radius: 5%;
+}
+ul li {
+  float: left;
+  font-size: 20px;
+}
+ul li a {
+  display: block;
+  text-align: center;
+  color: #2e3138;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+a {
+    color: #2e3138;
+    text-decoration: none;
+}
+a:hover {
+    color: azure;
+}
+i:hover {
+    color: azure;
+}
+ul li a:hover {
+  background-color: #c1afff;
+  color: azure;
+}
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #c1afff;
+    color: #2e3138;
+}
+header {
+    background-color: #c1afff;
+    text-align: center;
+    padding: 10px;
+}
+footer {
+  text-align: center;
+  padding: 8px;
+  bottom: 0;
+  background-color: #baa5ff;
+  position: bottom;
+}
+.side {
+    flex: 30%;
+    padding: 20px;
+
+}
+.main {
+    flex: 70%;
+    padding: 20px;
+    background-color: #c5b5ff;
+    min-height: 80%;
+    text-align: left;
+    justify-content: center;
+}
+.container {  
+  display: flex;
+  flex-wrap: wrap;
+}
+h1, h2 {
+        font-family: "DM Serif Text", serif;
+        margin-left: 5%;
+}
+img {
+    border: azure;
+    border-style: solid;
+    border-width: 6px;
+    display: block;
+    margin: auto;
+}
+figcaption {
+    background-color: azure;
+    margin-top: 0;
+    padding: 2%;
+
+}
+.captionlink:hover {
+    color: #6c3fff;
+}
+.paragraph {
+    max-width: 90%;
+    margin: auto;
+    text-indent: 4%;
+}
+.right {
+    float: right;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+p {
+    text-indent: 4%;
+}
+.limit {
+    max-width: 30%;
+    float: right;
+}
+.third {
+    flex: 33.33%;
+    padding: 20px;
+    min-height: 80%;
+    background-color: #c5b5ff;
+}
+.third1 {
+    flex: 33.33%;
+    padding: 20px;
+    min-height: 80%;
+}
+nav {
+    width: 100%;
+}
+.recipe {
+    width: 100%;
+    padding: 20px;
+    flex: 100%;
+}
+.recipe1 {
+    width: 100%;
+    padding: 20px;
+    background-color: #c5b5ff;
+    flex: 100%;
+}
+.main1 {
+    flex: 70%;
+    padding: 20px;
+    min-height: 80%;
+    text-align: left;
+}
+.book {
+    padding-bottom: 20px;
+    flex: 24%;
+}
+.genre {
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.cover {
+    width: 100%;
+
+}
+.book img {
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
+    margin: 0;
+
+}
+.book figcaption {
+    background-color: azure;
+    margin-top: 0;
+    padding: 2%;
+    width: 400px;
+}
+.recipe img {
+    width: 20%;
+    float: left;
+}
+.recipe1 img {
+    width: 20%;
+    float: left;
+}
